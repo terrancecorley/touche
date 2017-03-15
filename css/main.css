@@ -34,16 +34,22 @@ li {
 2. TYPOGRAPHY
 ***********************************/
 
+body {
+  font-weight: 300;
+}
+
+.main-nav li a,
+.bio-section h2,
+.bio-blurb h3 {
+  font-weight: 500;
+}
+
 .main-nav li a,
 button,
 h2,
 .reservations p,
 .contact-info h3 {
   text-transform: uppercase;
-}
-
-.main-nav li a {
-  font-weight: 500;
 }
 
 /* Main Heading */
@@ -57,12 +63,50 @@ h2,
 }
 
 .logo {
-  font-size: 1.85em;
+  font-size: 1.75em;
+  font-weight: bold;
 }
 
 .main-nav li a {
   font-size: 0.8em;
 }
+
+h1 {
+  font-size: 6.75em;
+}
+
+.main-header p {
+  font-size: 1.4em;
+}
+
+.main-header button {
+  font-size: 0.75em;
+}
+
+/* Bio */
+bio-section {
+  font-size: 1.1rem;
+}
+
+.bio-section h2 {
+  font-size: 2em;
+}
+
+.bio-blurb p {
+  font-size: 1em;
+}
+
+.bio-blurb h3 {
+  font-size: 1.4em;
+}
+
+/* Menu */
+.menu-header {
+  font-size: 1.2rem;
+}
+
+/*//add font sizes to menu header*/
+
 
 
 
@@ -71,7 +115,7 @@ h2,
 ***********************************/
 
 * {
-  background-color: #bbb; //delete me
+  background-color: pink; //delete me
 }
 
 body,
