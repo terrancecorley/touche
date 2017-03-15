@@ -210,6 +210,11 @@ button {
   background-color: #f6f6f6;
 }
 
+.contact-section input,
+.contact-section textarea {
+  border: 1px solid #ddd;
+}
+
 .contact-info {
   background-color: #262626;
 }
