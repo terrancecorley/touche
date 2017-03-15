@@ -1,7 +1,7 @@
 /* Table of Contents:
     1. General Styles
-    2. Colors & Borders
-    3. Typography
+    2. Typography
+    3. Colors & Borders
 */
 
 /***********************************
@@ -26,14 +26,31 @@ li {
 }
 
 
+/***********************************
+2. TYPOGRAPHY
+***********************************/
+
+.main-nav a,
+button,
+h2,
+.reservations p,
+.contact-info h3 {
+  text-transform: uppercase;
+}
+
+
 
 /***********************************
-2. COLORS & BORDERS
+3. COLORS & BORDERS
 ***********************************/
 
 body,
 a {
   color: #999;
+}
+
+button {
+  border: none;
 }
 
 .main-nav a {
@@ -51,15 +68,22 @@ a {
 .main-header button,
 .menu-header h2,
 .gallery-header h2,
+.gallery-buttons .selected-btn,
+.gallery-buttons button:hover,
 .chef-section h2,
 .chef-section > p,
 .chef-container h3,
+.reservations,
 .contact-section button {
   color: #fff;
 }
 
 .main-header button,
-.contact-section button {
+.gallery-buttons .selected-btn,
+.gallery-buttons button:hover,
+.reservations,
+.contact-section button,
+.main-footer {
   background-color: #8eb640;
 }
 
@@ -96,15 +120,12 @@ a {
   background-color: #eee;
 }
 
-.gallery-buttons .selected-btn,
-.gallery-buttons button:hover,
-.reservations {
-  background-color: #8eb640;
-  color: #fff;
-}
-
 .chef-container p {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.chef-section h2 {
+  border-bottom: 2px solid #fff;
 }
 
 .contact-section {
@@ -120,10 +141,6 @@ a {
 .main-footer p,
 .main-footer a {
   color: rgba(255, 255, 255, 0.8);
-}
-
-.main-footer {
-  background-color: #8eb640;
 }
 
 .main-footer a[href*="terrance"]:hover {
