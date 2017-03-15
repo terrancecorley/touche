@@ -1,1 +1,121 @@
+/* Table of Contents:
+    1. General Styles
+    2. Colors & Borders
+    3. Typography
+*/
 
+/***********************************
+1. GENERAL
+***********************************/
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+/***********************************
+2. COLORS & BORDERS
+***********************************/
+
+body,
+a {
+  color: #999;
+}
+
+.main-nav a {
+  color: #ddd;
+}
+
+.main-nav .logo,
+.main-nav a:hover,
+.contact-info h3 {
+  color: #8eb640;
+}
+
+.main-header h1,
+.main-header p,
+.main-header button,
+.menu-header h2,
+.gallery-header h2,
+.chef-section h2,
+.chef-section > p,
+.chef-container h3,
+.contact-section button {
+  color: #fff;
+}
+
+.main-header button,
+.contact-section button {
+  background-color: #8eb640;
+}
+
+.main-header button:hover,
+.contact-section button:hover {
+  background-color: #72a411;
+}
+
+.bio-blurb h2,
+.bio-blurb h3,
+.contact-section h2 {
+  color: #333;
+}
+
+.bio-blurb h2,
+.menu-header h2,
+.menu-section h2,
+.gallery-header h2,
+.contact-section h2 {
+  border-bottom: 2px solid #8eb640;
+}
+
+.menu-section h2 {
+  color: #444;
+}
+
+.menu-item li:first-child {
+  color: #555;
+  border-bottom: 2px #d5d5d5 dotted;
+}
+
+.gallery-buttons button {
+  color: #999;
+  background-color: #eee;
+}
+
+.selected-btn,
+.gallery-buttons button:hover,
+.reservations {
+  background-color: #8eb640;
+  color: #fff;
+}
+
+.chef-container p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-section {
+  background-color: #f6f6f6;
+}
+
+.contact-info {
+  background-color: #262626;
+}
+
+.contact-info a,
+.contact-info p {
+  color: rgba(255, 255, 255, 0.8);
+}
