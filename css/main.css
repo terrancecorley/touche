@@ -96,7 +96,7 @@ a {
   background-color: #eee;
 }
 
-.selected-btn,
+.gallery-buttons .selected-btn,
 .gallery-buttons button:hover,
 .reservations {
   background-color: #8eb640;
@@ -116,6 +116,16 @@ a {
 }
 
 .contact-info a,
-.contact-info p {
+.contact-info p,
+.main-footer p,
+.main-footer a {
   color: rgba(255, 255, 255, 0.8);
+}
+
+.main-footer {
+  background-color: #8eb640;
+}
+
+.main-footer a[href*="terrance"]:hover {
+  color: #333;
 }
