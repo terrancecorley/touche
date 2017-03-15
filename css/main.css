@@ -12,6 +12,10 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 1em;
+}
+
 body {
   line-height: 1.5;
   font-family: 'Raleway', sans-serif;
@@ -30,7 +34,7 @@ li {
 2. TYPOGRAPHY
 ***********************************/
 
-.main-nav a,
+.main-nav li a,
 button,
 h2,
 .reservations p,
@@ -38,11 +42,37 @@ h2,
   text-transform: uppercase;
 }
 
+.main-nav li a {
+  font-weight: 500;
+}
+
+/* Main Heading */
+.logo,
+.main-header h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.main-header {
+  font-size: 1.3rem;
+}
+
+.logo {
+  font-size: 1.85em;
+}
+
+.main-nav li a {
+  font-size: 0.8em;
+}
+
 
 
 /***********************************
 3. COLORS & BORDERS
 ***********************************/
+
+* {
+  background-color: #bbb; //delete me
+}
 
 body,
 a {
@@ -53,7 +83,11 @@ button {
   border: none;
 }
 
-.main-nav a {
+.logo {
+  border-bottom: 1px solid #fff;
+}
+
+.main-nav li a {
   color: #ddd;
 }
 
@@ -120,12 +154,12 @@ button {
   background-color: #eee;
 }
 
-.chef-container p {
-  color: rgba(255, 255, 255, 0.7);
-}
-
 .chef-section h2 {
   border-bottom: 2px solid #fff;
+}
+
+.chef-container p {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .contact-section {
