@@ -1,7 +1,16 @@
 /* Table of Contents:
     1. General Styles
     2. Typography
-    3. Colors & Borders
+    3. Main Heading
+    4. Bio
+    5. Menu
+    6. Gallery
+    7. Chefs
+    8. Reservations
+    9. Contact
+    10. Main Footer
+    11. Colors & Borders
+    12. Media Queries
 */
 
 /***********************************
@@ -26,6 +35,10 @@ a {
 
 li {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 
@@ -253,14 +266,80 @@ form p {
 
 
 
-
 /***********************************
-3. COLORS & BORDERS
+3. MAIN HEADING
 ***********************************/
 
-* {
-  background-color: pink; //delete me
+.main-header {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('../img/intro-bg.jpg') no-repeat center;
+  background-size: cover;
 }
+
+
+
+/***********************************
+4. BIO
+***********************************/
+
+
+
+/***********************************
+5. MENU
+***********************************/
+
+.menu-header {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('../img/menu-bg.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+
+/***********************************
+6. GALLERY
+***********************************/
+
+.gallery-header {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('../img/gallery-bg.jpg') no-repeat center;
+  background-size: cover;
+}
+
+
+
+/***********************************
+7. CHEFS
+***********************************/
+
+.chef-section {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('../img/chefs-bg.jpg') no-repeat center top;
+  background-size: cover;
+}
+
+
+/***********************************
+8. RESERVATIONS
+***********************************/
+
+
+
+/***********************************
+9. CONTACT
+***********************************/
+
+
+
+
+/***********************************
+10. MAIN FOOTER
+***********************************/
+
+
+/***********************************
+11. COLORS & BORDERS
+***********************************/
 
 body,
 a {
