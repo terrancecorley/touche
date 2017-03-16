@@ -334,6 +334,9 @@ form p {
 4. BIO
 ***********************************/
 
+.bio-section {
+  padding: 7.4em 0;
+}
 
 
 
@@ -343,10 +346,37 @@ form p {
 ***********************************/
 
 .menu-header {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),
               url('../img/menu-bg.jpg') no-repeat center;
   background-size: cover;
+  padding: 2.8em 1em 3.2em;
+  text-align: center;
 }
+
+.menu-section {
+  padding: 3.6em 0;
+}
+
+.menu-header h2,
+.menu-section h2 {
+  display: inline-block;
+}
+
+.menu-section h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.menu-section ul {
+  padding: 0;
+}
+
+.menu-item ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 
 
 
@@ -355,7 +385,7 @@ form p {
 ***********************************/
 
 .gallery-header {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),
               url('../img/gallery-bg.jpg') no-repeat center;
   background-size: cover;
 }
@@ -367,9 +397,8 @@ form p {
 ***********************************/
 
 .chef-section {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
               url('../img/chefs-bg.jpg') no-repeat center top;
-  background-size: cover;
 }
 
 
@@ -477,7 +506,7 @@ button {
   color: #555;
 }
 
-.menu-item li:first-child {
+.menu-item ul {
   border-bottom: 2px #d5d5d5 dotted;
 }
 
@@ -507,6 +536,8 @@ button {
   background-color: #262626;
 }
 
+.menu-header p,
+.gallery-header p,
 .contact-info a,
 .contact-info p,
 .main-footer p,
