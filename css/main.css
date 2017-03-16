@@ -40,8 +40,13 @@ body {
 
 .main-nav li a,
 .bio-section h2,
-.bio-blurb h3 {
+.bio-blurb h3,
+.menu-section h2 {
   font-weight: 500;
+}
+
+.menu-section li{
+  font-weight: 600;
 }
 
 .main-nav li a,
@@ -100,12 +105,23 @@ bio-section {
   font-size: 1.4em;
 }
 
-/* Menu */
+/* Menu Header */
 .menu-header {
   font-size: 1.2rem;
 }
 
-/*//add font sizes to menu header*/
+.menu-header h2 {
+  font-size: 1.75em;
+}
+
+.menu-header p {
+  font-size: 1.15em;
+}
+
+/* Menu Section */
+.menu-section {
+  font-size: 1.1rem;
+}
 
 
 
@@ -188,8 +204,11 @@ button {
   color: #444;
 }
 
-.menu-item li:first-child {
+.menu-item li {
   color: #555;
+}
+
+.menu-item li:first-child {
   border-bottom: 2px #d5d5d5 dotted;
 }
 
