@@ -125,7 +125,7 @@ h1 {
 }
 
 .title {
-  font-size: 1.55em;
+  font-size: 1.19em;
 }
 
 .main-header button {
@@ -324,8 +324,8 @@ form p {
 
 .main-header button {
   display: block;
-  margin: 2em auto;
-  padding: 1.1em 1.2em;
+  margin: 3.8em auto 2em;
+  padding: 1.0em 1.1em;
 }
 
 
@@ -333,6 +333,8 @@ form p {
 /***********************************
 4. BIO
 ***********************************/
+
+
 
 
 
