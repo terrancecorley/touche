@@ -18,7 +18,6 @@ html {
 
 body {
   line-height: 1.5;
-  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -34,19 +33,43 @@ li {
 2. TYPOGRAPHY
 ***********************************/
 
-body {
+body,
+.contact-section input,
+.contact-section textarea,
+button {
+  font-family: 'Raleway', sans-serif;
+}
+
+body,
+.contact-section input,
+.contact-section textarea {
   font-weight: 300;
 }
 
 .main-nav li a,
 .bio-section h2,
 .bio-blurb h3,
-.menu-section h2 {
+.menu-section h2,
+.gallery-header h2,
+.gallery-buttons button,
+.chef-section h2,
+.contact-section h2,
+button {
   font-weight: 500;
 }
 
 .menu-section li{
   font-weight: 600;
+}
+
+.chef-container h3,
+.reservations p,
+.contact-info h3 {
+  font-weight: normal;
+}
+
+.menu-item p {
+  font-style: italic;
 }
 
 .main-nav li a,
@@ -105,7 +128,7 @@ bio-section {
   font-size: 1.4em;
 }
 
-/* Menu Header */
+/* Menu Heading */
 .menu-header {
   font-size: 1.2rem;
 }
@@ -121,6 +144,111 @@ bio-section {
 /* Menu Section */
 .menu-section {
   font-size: 1.1rem;
+}
+
+.menu-item li {
+  font-size: 0.95em;
+}
+
+.menu-item p {
+  font-size: 0.875em;
+}
+
+/* Gallery Heading*/
+.gallery-header {
+  font-size: 1.2rem;
+}
+
+.gallery-header h2 {
+  font-size: 1.75em;
+}
+
+.gallery-header p {
+  font-size: 1.15em;
+}
+
+/* Gallery */
+.gallery-buttons button {
+  font-size: 0.9em;
+}
+
+/* Chef Section */
+.chef-section {
+  font-size: 1.2rem;
+}
+
+.chef-section h2 {
+  font-size: 1.75em;
+}
+
+.chef-section > p {
+  font-size: 1.15em;
+}
+
+.chef-container h3 {
+  font-size: 1.05em;
+}
+
+.chef-container p {
+  font-size: 0.8em;
+}
+
+/* Reservations */
+.reservations {
+  font-size: 1.2rem;
+}
+
+.reservations p {
+  font-family: 'Open Sans';
+  font-size: 1.75em;
+}
+
+/* Contact Form*/
+.contact-section {
+  font-size: 1.2rem;
+}
+
+.contact-section h2 {
+  font-size: 1.75em;
+}
+
+form p {
+  font-size: 1.15em;
+}
+
+.contact-section input,
+.contact-section textarea {
+  font-size: 0.85em;
+}
+
+.contact-section button {
+  font-size: 0.85em;
+}
+
+/* Contact Info */
+.contact-info {
+  font-size: 1.1rem;
+}
+
+.contact-info h3 {
+  font-size: 1em;
+}
+
+.contact-info p {
+  font-size: 0.85em;
+}
+
+/* Main Footing */
+.main-footer {
+  font-size: 0.9rem;
+}
+
+.main-footer p, {
+  font-size: 1.05em;
+}
+
+.main-footer a[href*="terrance"] {
+  font-size: 1.05em;
 }
 
 
@@ -200,7 +328,15 @@ button {
   border-bottom: 2px solid #8eb640;
 }
 
-.menu-section h2 {
+.bio-blurb p,
+.menu-item p,
+.contact-section p {
+  color: #777;
+}
+
+.menu-section h2,
+.contact-section input,
+.contact-section textarea {
   color: #444;
 }
 
