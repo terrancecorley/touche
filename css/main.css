@@ -401,7 +401,7 @@ form p {
 }
 
 .gallery-section {
-  padding-bottom: 5.5em;
+  padding-bottom: 5em;
 }
 
 .gallery-buttons {
@@ -423,7 +423,7 @@ form p {
   padding: 0;
 }
 
-.gallery-img {
+.gallery-img img {
   margin-bottom: 1.4em;
 }
 
@@ -436,6 +436,28 @@ form p {
 .chef-section {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
               url('../img/chefs-bg.jpg') no-repeat center top;
+  background-size: cover;
+}
+
+.chef-section {
+  padding: 4.2em 1.5em;
+  text-align: center;
+}
+
+.chef-section h2 {
+  display: inline-block;
+}
+
+.chef-container div {
+  margin: 4em 0;
+}
+
+.chef-container div h3 {
+  margin: 0;
+}
+
+.chef-container div p {
+  margin: 0.2em 0 0;
 }
 
 
@@ -443,12 +465,28 @@ form p {
 8. RESERVATIONS
 ***********************************/
 
+.reservations {
+  text-align: center;
+  padding: 4em 0;
+}
+
+.reservations p {
+  margin: 0;
+}
 
 
 /***********************************
 9. CONTACT
 ***********************************/
 
+form {
+  padding: 4.9em 0 2em;
+}
+
+form h2 {
+  margin-top: 0;
+  display: inline-block;
+}
 
 
 
@@ -495,6 +533,7 @@ button {
 .chef-section > p,
 .chef-container h3,
 .reservations,
+.reservations a,
 .contact-section button {
   color: #fff;
 }
