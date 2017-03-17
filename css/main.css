@@ -400,6 +400,10 @@ form p {
   display: inline-block;
 }
 
+.gallery-section {
+  padding-bottom: 5.5em;
+}
+
 .gallery-buttons {
   display: flex;
   flex-wrap: wrap;
@@ -417,6 +421,10 @@ form p {
 .gallery-images {
   margin: 0;
   padding: 0;
+}
+
+.gallery-img {
+  margin-bottom: 1.4em;
 }
 
 
