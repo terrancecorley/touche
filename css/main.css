@@ -349,7 +349,7 @@ form p {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),
               url('../img/menu-bg.jpg') no-repeat center;
   background-size: cover;
-  padding: 2.8em 1em 3.2em;
+  padding: 2.5em 1em 3em;
   text-align: center;
 }
 
@@ -365,6 +365,10 @@ form p {
 .menu-section h2 {
   width: 100%;
   text-align: center;
+}
+
+.menu-section > div {
+  margin-bottom: 3.3em;
 }
 
 .menu-section ul {
@@ -388,6 +392,31 @@ form p {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)),
               url('../img/gallery-bg.jpg') no-repeat center;
   background-size: cover;
+  padding: 2.5em 1em 3em;
+  text-align: center;
+}
+
+.gallery-header h2 {
+  display: inline-block;
+}
+
+.gallery-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 4em 0;
+}
+
+.gallery-btn {
+  margin: 0.5em 2%;
+  padding: 1em 1.6em;
+  flex-basis: 40%;
+}
+
+.gallery-images {
+  margin: 0;
+  padding: 0;
 }
 
 
