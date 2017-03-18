@@ -480,7 +480,9 @@ form p {
 ***********************************/
 
 form {
-  padding: 4.9em 0 2em;
+  padding: 4.9em 0 1.8em;
+  text-align: center;
+  max-width: 100%;
 }
 
 form h2 {
@@ -488,11 +490,61 @@ form h2 {
   display: inline-block;
 }
 
+form p {
+  margin-bottom: 3em;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form input,
+form textarea {
+  min-width: 80%;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  margin: 0 auto 0.85em;
+}
+
+form input {
+  padding: 0.5em;
+}
+
+form textarea {
+  padding: 0.5em 0.5em 3em;
+}
+
+form button {
+  margin-top: 2em;
+  min-width: 40%;
+  padding: 1.0em 1.1em;
+}
+
+.contact-info {
+  padding: 2.8em 0;
+  text-align: center;
+}
+
+
+
+
 
 
 /***********************************
 10. MAIN FOOTER
 ***********************************/
+
+.main-footer {
+  padding: 2em 0;
+  text-align: center;
+}
+
+.main-footer p {
+  margin-bottom: 0;
+}
 
 
 /***********************************
