@@ -467,7 +467,7 @@ form p {
 
 .reservations {
   text-align: center;
-  padding: 4em 0;
+  padding: 4em 1em;
 }
 
 .reservations p {
@@ -538,9 +538,35 @@ form button {
 ***********************************/
 
 .main-footer {
-  padding: 2em 0;
+  padding: 2em 1em;
   text-align: center;
 }
+
+.main-footer div a {
+  display: inline-block;
+  margin: 1.5em;
+  padding: 0.5em 0.6em;
+  text-indent: -10000px;
+  min-height: 24px;
+  width: 24px;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+
+.facebook {
+  background-image: url('../img/facebook.svg');
+}
+
+.twitter {
+  background-image: url('../img/twitter.svg');
+}
+
+.google-plus {
+  background-image: url('../img/google-plus.svg');
+}
+
+
 
 .main-footer p {
   margin-bottom: 0;
