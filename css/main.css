@@ -49,6 +49,11 @@ button {
   cursor: pointer;
 }
 
+a,
+button {
+  transition: all 0.2s ease-in-out;
+}
+
 
 /***********************************
 2. TYPOGRAPHY
