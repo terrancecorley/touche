@@ -748,3 +748,31 @@ button {
 .main-footer a[href*="terrance"]:hover {
   color: #333;
 }
+
+
+
+/***********************************
+12. MEDIA QUERIES
+***********************************/
+
+@media (min-width: 34em) {
+
+  body {
+    background-color: orange;
+  }
+
+  .overlay {
+    height: inherit;
+  }
+
+  .gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .gallery-img {
+    flex-basis: 45%;
+  }
+
+}
