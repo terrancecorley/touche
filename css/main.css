@@ -429,7 +429,48 @@ form p {
 }
 
 .gallery-img img {
-  margin-bottom: 1.4em;
+  margin-bottom: 5.5em;
+}
+
+/* Adding Img Overlay */
+.gallery-img {
+  position: relative;
+  //width: 100%;
+}
+
+.gallery-img img {
+  display: block;
+  //width: 100%;
+  //height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  //width: 100%;
+  opacity: 0;
+  transition: opacity .4s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 
