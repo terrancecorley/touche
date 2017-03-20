@@ -758,11 +758,7 @@ button {
 @media (min-width: 34em) {
 
   body {
-    background-color: orange;
-  }
-
-  .overlay {
-    height: inherit;
+    //background-color: orange;
   }
 
   .gallery-images {
