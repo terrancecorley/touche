@@ -772,6 +772,10 @@ button {
 
 @media (min-width: 40em) {
 
+  .gallery-btn {
+    flex-basis: 20%;
+  }
+
   .menu-section {
     display: flex;
     flex-wrap: wrap;
@@ -790,6 +794,7 @@ button {
   .contact-info div {
     flex-basis: 30%;
   }
+
 
 }
 
@@ -811,6 +816,10 @@ button {
 
   .bio-blurb h2 {
     margin-top: 0;
+  }
+
+  .gallery-btn {
+    flex-basis: 10%;
   }
 
   .contact-info div:first-child {
