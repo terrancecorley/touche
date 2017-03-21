@@ -428,20 +428,17 @@ form p {
   padding: 0;
 }
 
-.gallery-img img {
+.gallery-img {
   margin-bottom: 5.5em;
 }
 
 /* Adding Img Overlay */
 .gallery-img {
   position: relative;
-  //width: 100%;
 }
 
 .gallery-img img {
   display: block;
-  //width: 100%;
-  //height: auto;
 }
 
 .overlay {
@@ -451,7 +448,6 @@ form p {
   left: 0;
   right: 0;
   height: 100%;
-  //width: 100%;
   opacity: 0;
   transition: opacity .4s ease-in-out;
   background-color: rgba(0, 0, 0, 0.6);
@@ -769,6 +765,14 @@ button {
 
   .gallery-img {
     flex-basis: 45%;
+  }
+
+}
+
+@media (min-width: 64em) {
+
+  .gallery-img {
+    flex-basis: 30%;
   }
 
 }
