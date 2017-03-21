@@ -772,6 +772,28 @@ button {
 
 @media (min-width: 40em) {
 
+  .main-nav,
+  .main-nav ul {
+    display: flex;
+  }
+
+  .main-nav {
+    justify-content: space-between;
+  }
+
+  .main-nav a {
+    border-bottom: none;
+  }
+
+  .main-nav ul {
+    margin: 0;
+  }
+
+  .main-nav li {
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+  }
+
   .gallery-btn {
     flex-basis: 20%;
   }
@@ -803,6 +825,11 @@ button {
 }
 
 @media (min-width: 62.5em) {
+
+  .main-nav li {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 
   .bio-section {
     display: flex;
@@ -841,6 +868,11 @@ button {
 }
 
 @media (min-width: 64em) {
+
+  .main-nav li {
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+  }
 
   .gallery-img {
     flex-basis: 30%;
