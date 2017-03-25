@@ -826,6 +826,13 @@ button {
 
 @media (min-width: 62.5em) {
 
+  /* Scrolled Images */
+  .menu-header,
+  .gallery-header,
+  .chef-section {
+    background-attachment: fixed;
+  }
+
   .main-nav li {
     margin-left: 0.5em;
     margin-right: 0.5em;
