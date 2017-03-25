@@ -753,6 +753,10 @@ button {
 
 @media (min-width: 34em) {
 
+  .container {
+    margin: 0 6%;
+  }
+
   .gallery-images {
     display: flex;
     flex-wrap: wrap;
@@ -825,6 +829,10 @@ button {
 }
 
 @media (min-width: 62.5em) {
+
+  .container {
+    margin: 0 7%;
+  }
 
   /* Scrolled Images */
   .menu-header,
