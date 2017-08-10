@@ -821,6 +821,11 @@ button {
     padding-right: 1em;
   }
 
+  form input,
+  form textarea {
+    min-width: 40%;
+  }
+
   form button {
     min-width: 20%;
   }
@@ -883,6 +888,11 @@ button {
 
   .gallery-btn {
     flex-basis: 10%;
+  }
+
+  form input,
+  form textarea {
+    min-width: 35%;
   }
 
   form button {
