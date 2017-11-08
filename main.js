@@ -9,16 +9,20 @@ document.addEventListener('DOMContentLoaded', () => {
 		// when target btn is clicked add .selected-btn & remove from sibs
 		if (e.target.tagName === 'BUTTON') {
 			const currentBtn = e.target;
-			currentBtn.parentNode.childNodes.className = 'gallery-btn';
+			const siblingBtns = currentBtn.parentElement.children;
+			for (let i = 0; i < siblingBtns.length; i += 1) {
+				let currentSibBtn = siblingBtns[i];
+				currentSibBtn.className = 'gallery-btn';
+			}
 			currentBtn.className = 'gallery-btn selected-btn';
 
-			if (currentBtn.previousElementSibling.className === 'gallery-btn selected-btn') {
-				currentBtn.previousElementSibling.className = 'gallery-btn';
-			}
+			// if (currentBtn.previousElementSibling.className === 'gallery-btn selected-btn') {
+			// 	currentBtn.previousElementSibling.className = 'gallery-btn';
+			// }
 
-			if (currentBtn.nextElementSibling.className === 'gallery-btn selected-btn') {
-				currentBtn.nextElementSibling.className = 'gallery-btn';
-			}
+			// if (currentBtn.nextElementSibling.className === 'gallery-btn selected-btn') {
+			// 	currentBtn.nextElementSibling.className = 'gallery-btn';
+			// }
 			
 			// when all btn clicked, show all food items
 			if (currentBtn.textContent.toUpperCase() === 'ALL') {
