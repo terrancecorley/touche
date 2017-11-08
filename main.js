@@ -15,14 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
 				currentSibBtn.className = 'gallery-btn';
 			}
 			currentBtn.className = 'gallery-btn selected-btn';
-
-			// if (currentBtn.previousElementSibling.className === 'gallery-btn selected-btn') {
-			// 	currentBtn.previousElementSibling.className = 'gallery-btn';
-			// }
-
-			// if (currentBtn.nextElementSibling.className === 'gallery-btn selected-btn') {
-			// 	currentBtn.nextElementSibling.className = 'gallery-btn';
-			// }
 			
 			// when all btn clicked, show all food items
 			if (currentBtn.textContent.toUpperCase() === 'ALL') {
